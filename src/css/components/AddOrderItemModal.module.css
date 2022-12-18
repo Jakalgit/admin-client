@@ -1,0 +1,207 @@
+/* Модельное окно */
+.modal_item {
+    position: fixed;
+    padding-top: 7rem;
+    padding-bottom: 7rem;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 1vh;
+    border-radius: 2rem;
+    background-color: #fff;
+    box-shadow: 0 0 2rem 0.6rem rgba(0, 0, 0, 0.25);
+}
+.up_line {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.select_text {
+    font-family: 'Raleway', sans-serif;
+    font-size: 4.5rem;
+    font-weight: bold;
+    margin-bottom: 0;
+    display: inline-block;
+}
+.close_modal {
+    display: inline-block;
+    margin-left: 60%;
+    width: 5rem;
+    height: 5rem;
+}
+.close_modal:hover {
+    cursor: pointer;
+}
+.input {
+    height: 6rem;
+    margin-top: 2vh;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    color: #000;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.25);
+    border-radius: 0.5rem;
+    border-style: none;
+    outline: none;
+    text-align: center;
+    transition: all 0.2s;
+}
+.input::placeholder {
+    color: #BDBDBD;
+}
+.input:focus {
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.4);
+}
+.items {
+    margin-top: 1vh;
+    height: 45vh;
+    overflow: auto;
+}
+.items_block {
+    margin-top: 3rem;
+}
+.item {
+    margin-top: 7rem;
+    font-family: 'Raleway', sans-serif;
+}
+.item:hover {
+    cursor: pointer;
+}
+.img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.image {
+    width: 30rem;
+    height: 30rem;
+}
+.item_name {
+    text-align: center;
+    font-size: 3rem;
+}
+/* Кнопка "Сохранить" */
+.save {
+    font-family: 'Raleway', sans-serif;
+    font-size: 2.5rem;
+    color: #fff;
+    background-color: #000;
+    border-style: none;
+    border-radius: 0.5rem;
+    height: 6rem;
+    margin-top: 2vh;
+    transition: all 0.2s;
+}
+.save:hover {
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.6);
+}
+@media (max-width: 1399px) {
+    .close_modal {
+        margin-left: 50%;
+    }
+}
+@media (max-width: 1199px) {
+    .image {
+        width: 25rem;
+        height: 25rem;
+    }
+    .select_text {
+        font-size: 3.7rem;
+    }
+    .close_modal {
+        margin-left: 40%;
+        width: 4.5rem;
+        height: 4.5rem;
+    }
+    .input {
+        height: 5rem;
+        font-size: 2.1rem;
+        margin-top: 2rem;
+    }
+    .save {
+        height: 5rem;
+        font-size: 2.1rem;
+        margin-top: 2rem;
+    }
+}
+@media (max-width: 991px) {
+    .item_name {
+        font-size: 2.5rem;
+    }
+    .image {
+        width: 20rem;
+        height: 20rem;
+    }
+    .select_text {
+        font-size: 3.2rem;
+    }
+    .close_modal {
+        margin-left: 25%;
+    }
+    .input {
+        height: 5rem;
+        font-size: 2.1rem;
+        margin-top: 2rem;
+    }
+    .save {
+        height: 5rem;
+        font-size: 2.1rem;
+        margin-top: 2rem;
+    }
+}
+@media (max-width: 767px) {
+    .modal_item {
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    }
+    .select_text {
+        font-size: 3.2rem;
+    }
+    .close_modal {
+        margin-left: 23%;
+    }
+    .input {
+        height: 4rem;
+        font-size: 1.7rem;
+    }
+    .save {
+        height: 4rem;
+        font-size: 1.7rem;
+    }
+}
+@media (max-width: 575px) {
+    .select_text {
+        font-size: 2.7rem;
+    }
+    .close_modal {
+        margin-left: 17%;
+        width: 3.5rem;
+        height: 3.5rem;
+    }
+}
+@media (max-width: 430px) {
+    .select_text {
+        font-size: 2.3rem;
+    }
+    .close_modal {
+        margin-left: 12%;
+        width: 3rem;
+        height: 3rem;
+    }
+    .input {
+        height: 3.5rem;
+        font-size: 1.3rem;
+    }
+    .save {
+        height: 3.5rem;
+        font-size: 1.3rem;
+    }
+    .item {
+        margin-top: 5rem;
+    }
+    .item_name {
+        font-size: 2.1rem;
+    }
+    .image {
+        width: 16rem;
+        height: 16rem;
+    }
+}

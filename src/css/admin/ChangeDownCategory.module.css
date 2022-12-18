@@ -1,0 +1,223 @@
+html,
+body {
+    background-color: #fff;
+    font-size: 10px;
+    min-width: 320px;
+}
+/* Блок */
+.select_text {
+    font-family: 'Raleway', sans-serif;
+    font-size: 5rem;
+    text-align: center;
+    margin-top: 12rem;
+    margin-bottom: 6rem;
+}
+.head_name {
+    font-family: 'Raleway', sans-serif;
+    font-size: 4rem;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+.list {
+    height: 35rem;
+    overflow: auto;
+    border-style: solid;
+    border-width: 0.1rem;
+    border-radius: 0.5rem;
+}
+/* Инпут */
+.input {
+    height: 6rem;
+    margin-top: 3rem;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    color: #000;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.25);
+    border-radius: 0.5rem;
+    border-style: none;
+    outline: none;
+    text-align: center;
+    transition: all 0.2s;
+}
+.input::placeholder {
+    color: #BDBDBD;
+}
+.input:focus {
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.4);
+}
+.name {
+    font-size: 3rem;
+    font-family: 'Raleway', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 5rem;
+    margin-top: 0.7rem;
+    margin-bottom: 0.7rem;
+    border-radius: 0.5rem;
+    transition: all 0.2s;
+}
+.name:hover {
+    cursor: pointer;
+    color: #fff;
+    background-color: #0048D0;
+}
+/* Кнопка "Сохранить" */
+.save {
+    font-family: 'Raleway', sans-serif;
+    font-size: 2.5rem;
+    color: #fff;
+    background-color: #000;
+    border-style: none;
+    border-radius: 0.5rem;
+    height: 6rem;
+    margin-top: 3rem;
+    transition: all 0.2s;
+}
+.save:hover {
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.6);
+}
+/* Удалить */
+.delete {
+    height: 6rem;
+    font-family: 'Raleway', sans-serif;
+    font-size: 2.5rem;
+    margin-top: 3rem;
+    background-color: #D50000;
+    border-style: none;
+    border-radius: 0.5rem;
+    color: #fff;
+    transition: all 0.2s;
+}
+.delete:hover {
+    box-shadow: 0 0 15px #D50000;
+}
+.select_name {
+    font-size: 2.1rem;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    margin-top: 2rem;
+}
+@media (max-width: 1199px) {
+    .select_text {
+        font-size: 4rem;
+    }
+    .head_name {
+        font-size: 3.3rem;
+    }
+    .name {
+        font-size: 2.7rem;
+    }
+    .input {
+        font-size: 2.1rem;
+    }
+    .save {
+        font-size: 2.1rem;
+    }
+    .delete {
+        font-size: 2.1rem;
+    }
+    .select_name {
+        font-size: 1.7rem;
+    }
+}
+@media (max-width: 991px) {
+    .select_text {
+        font-size: 3.5rem;
+    }
+    .head_name {
+        font-size: 2.7rem;
+    }
+    .list {
+        height: 25rem;
+    }
+    .name {
+        font-size: 2rem;
+        height: 4rem;
+    }
+    .input {
+        font-size: 1.8rem;
+        height: 5rem;
+    }
+    .save {
+        font-size: 1.8rem;
+        height: 5rem;
+    }
+    .delete {
+        font-size: 1.8rem;
+        height: 5rem;
+    }
+    .select_name {
+        font-size: 1.3rem;
+    }
+}
+@media (max-width: 767px) {
+    .select_text {
+        font-size: 2.7rem;
+    }
+    .head_name {
+        font-size: 2.2rem;
+    }
+    .list {
+        height: 20rem;
+    }
+    .name {
+        font-size: 1.6rem;
+        height: 3.5rem;
+        margin-top: 0.4rem;
+        margin-bottom: 0.4rem;
+    }
+    .input {
+        font-size: 1.3rem;
+        height: 4rem;
+        margin-top: 2rem;
+    }
+    .save {
+        font-size: 1.3rem;
+        height: 4rem;
+        margin-top: 2rem;
+    }
+    .delete {
+        font-size: 1.3rem;
+        height: 4rem;
+        margin-top: 2rem;
+    }
+    .select_name {
+        font-size: 1.2rem;
+    }
+}
+@media (max-width: 430px) {
+    .select_text {
+        font-size: 2.2rem;
+    }
+    .head_name {
+        font-size: 1.8rem;
+    }
+    .list {
+        height: 17rem;
+    }
+    .name {
+        font-size: 1.2rem;
+        height: 3rem;
+        margin-top: 0.4rem;
+        margin-bottom: 0.4rem;
+    }
+    .input {
+        font-size: 1.1rem;
+        height: 3.5rem;
+        margin-top: 2rem;
+    }
+    .save {
+        font-size: 1.1rem;
+        height: 3.5rem;
+        margin-top: 2rem;
+    }
+    .delete {
+        font-size: 1.1rem;
+        height: 3.5rem;
+        margin-top: 1rem;
+    }
+    .select_name {
+        font-size: 1rem;
+    }
+}

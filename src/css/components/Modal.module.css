@@ -1,0 +1,22 @@
+.modal_div {
+    display: flex;
+    background-color: #212121;
+    align-items: center;
+    justify-content: center;
+    height: 15rem;
+}
+
+.modal_text {
+    color: #ffffff;
+    font-size: 1.7rem;
+}
+
+.modal_content {
+    box-shadow: 0 0 100px #212121;
+}
+
+@media (max-width: 575px) {
+    .modal_text {
+        font-size: 1.2rem;
+    }
+}

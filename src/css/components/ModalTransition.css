@@ -1,0 +1,70 @@
+@keyframes show-modal {
+    0% {
+        opacity: 0;
+        transform: translateY(-10rem);
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+.modal-item-enter-active {
+    animation: show-modal 0.4s forwards;
+}
+.modal-item-done {
+    opacity: 1;
+}
+.modal-item-exit-active {
+    animation: show-modal 0.4s reverse;
+}
+.modal-item.exited {
+    opacity: 0;
+}
+
+@keyframes show-modal-repair {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.modal-repair-enter-active {
+    animation: show-modal-repair 0.4s forwards;
+}
+.modal-repair-done {
+    opacity: 1;
+}
+.modal-repair-exit-active {
+    animation: show-modal-repair 0.4s reverse;
+}
+.modal-repair.exited {
+    opacity: 0;
+}
+
+@keyframes show-modal-messages {
+    0% {
+        opacity: 0;
+        transform: translateY(43rem);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.messages-enter-active {
+    animation: show-modal-messages 0.5s forwards;
+}
+.messages-done {
+    opacity: 1;
+}
+.messages-exit-active {
+    animation: show-modal-messages 0.5s reverse;
+}
+.messages.exited {
+    opacity: 0;
+}

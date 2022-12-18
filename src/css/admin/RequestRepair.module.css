@@ -1,0 +1,181 @@
+/* Заявки */
+.req {
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: 4rem;
+    margin-top: 17rem;
+}
+.req_list {
+    margin-top: 3rem;
+    overflow-x: hidden;
+    overflow-y: auto;
+    height: 70vh;
+}
+.request {
+    height: 8rem;
+    box-shadow: 0 0 1rem 0.5rem rgba(0, 0, 0, 0.25);
+    border-radius: 1.4rem;
+    margin-top: 2rem;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
+.name {
+    font-family: 'Raleway', sans-serif;
+    font-size: 2rem;
+    margin-right: 1rem;
+    margin-left: 1rem;
+    margin-bottom: 0;
+}
+.phone {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-bottom: 0;
+}
+.status {
+    font-family: 'Raleway', sans-serif;
+    font-size: 2rem;
+    margin-right: 1rem;
+    margin-left: 1rem;
+    margin-bottom: 0;
+}
+.status_red {
+    color: #FF0000;
+}
+.status_green {
+    color: #00E676;
+}
+.res {
+    margin-left: auto;
+    margin-right: 1rem;
+    width: 3.5rem;
+    height: 3.5rem;
+    background-color: #00E676;
+    border-style: none;
+    border-radius: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.check {
+    width: 2.5rem;
+    height: 2.5rem;
+}
+@media (max-width: 1199px) {
+    .req {
+        font-size: 3rem;
+    }
+    .req_list {
+        margin-top: 1rem;
+    }
+    .request {
+        padding-left: 0.7rem;
+        padding-right: 0.7rem;
+        height: 7rem;
+    }
+    .name {
+        font-size: 1.3rem;
+        margin-left: 0.7rem;
+        margin-right: 0.7rem;
+    }
+    .phone {
+        font-size: 1.3rem;
+        margin-left: 0.7rem;
+        margin-right: 0.7rem;
+    }
+    .status {
+        font-size: 1.3rem;
+        margin-left: 0.7rem;
+        margin-right: 0.7rem;
+    }
+    .res {
+        width: 3rem;
+        height: 3rem;
+    }
+    .check {
+        width: 2rem;
+        height: 2rem;
+    }
+}
+@media (max-width: 767px) {
+    .req {
+        font-size: 2.5rem;
+    }
+    .request {
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+        height: 6rem;
+        border-radius: 1rem;
+    }
+    .name {
+        font-size: 1.1rem;
+        margin-left: 0.5rem;
+        margin-right: 0.5rem;
+    }
+    .phone {
+        font-size: 1.1rem;
+        margin-left: 0.5rem;
+        margin-right: 0.5rem;
+    }
+    .status {
+        font-size: 1.1rem;
+        margin-left: 0.5rem;
+        margin-right: 0.5rem;
+    }
+    .res {
+        width: 2.5rem;
+        height: 2.5rem;
+    }
+    .check {
+        width: 1.7rem;
+        height: 1.7rem;
+    }
+}
+@media (max-width: 490px) {
+    .req {
+        font-size: 2.2rem;
+    }
+    .request {
+        padding-left: 0.3rem;
+        padding-right: 0.3rem;
+        height: 4rem;
+        border-radius: 0.8rem;
+        margin-top: 1rem;
+        box-shadow: 0 0 0.8rem 0.2rem rgba(0, 0, 0, 0.25);
+    }
+    .name,
+    .phone,
+    .status {
+        font-size: 1rem;
+        margin-left: 0.2rem;
+        margin-right: 0.2rem;
+    }
+    .res {
+        width: 2.1rem;
+        height: 2.1rem;
+        margin-right: 0.2rem;
+    }
+    .check {
+        width: 1.3rem;
+        height: 1.3rem;
+    }
+}
+@media (max-width: 390px) {
+    .name,
+    .phone,
+    .status {
+        font-size: 0.9rem;
+    }
+    .res {
+        width: 1.7rem;
+        height: 1.7rem;
+    }
+    .check {
+        width: 1rem;
+        height: 1rem;
+    }
+}

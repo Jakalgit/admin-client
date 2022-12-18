@@ -1,0 +1,381 @@
+html,
+body {
+    background-color: #fff;
+    font-size: 10px;
+    min-width: 320px;
+}
+/* Стиль блока */
+.check_order {
+    margin-top: 12rem;
+}
+.left_block,
+.right_block {
+    margin-top: 2rem;
+}
+.check_order_text {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 5rem;
+}
+.header_info {
+    margin-top: 7rem;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+.info {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 1rem;
+    font-size: 2rem;
+}
+.button {
+    margin-top: 12rem;
+    height: 8rem;
+    font-size: 3rem;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    border-radius: 0.5rem;
+    border-style: none;
+    transition: all 0.2s;
+}
+.button:hover {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+.green {
+    background-color: #00E676;
+    color: #000;
+}
+.yellow {
+    background-color: #FFFF00;
+    color: #000;
+}
+.red {
+    background-color: #E53935;
+    color: #fff;
+}
+.turquoise {
+    background-color: #64FFDA;
+    color: #000;
+}
+.input {
+    height: 6rem;
+    margin-top: 3rem;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    color: #000;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.25);
+    border-radius: 0.5rem;
+    border-style: none;
+    outline: none;
+    text-align: center;
+    transition: all 0.2s;
+}
+.input::placeholder {
+    color: #BDBDBD;
+}
+.input:focus {
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.4);
+}
+.save {
+    font-family: 'Raleway', sans-serif;
+    font-size: 2.5rem;
+    color: #fff;
+    background-color: #000;
+    border-style: none;
+    border-radius: 0.5rem;
+    height: 6rem;
+    margin-top: 3rem;
+    transition: all 0.2s;
+}
+.save:hover {
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.6);
+}
+/* Полная цена */
+.order_items {
+    margin-top: 10rem;
+}
+.sum {
+    text-align: center;
+    font-size: 5rem;
+    font-family: 'Raleway', sans-serif;
+}
+.digital_sum {
+    text-align: center;
+    margin-top: 2rem;
+    font-size: 5rem;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+}
+/* Стиль айтема в корзине */
+.item {
+    margin-top: 10rem;
+}
+.item_name {
+    margin-top: 5rem;
+    font-family: 'Raleway', sans-serif;
+    font-size: 4rem;
+    text-align: center;
+}
+.img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.image {
+    height: 40rem;
+    width: 40rem;
+}
+.image:hover {
+    cursor: pointer;
+}
+.first_price {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.4rem;
+    text-align: center;
+}
+.counter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.count {
+    width: 6rem;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3.5rem;
+    margin: 0;
+}
+.change {
+    width: 2.4rem;
+    height: 2.4rem;
+    border-radius: 1.2rem;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #000000;
+    transition: all 0.2s;
+}
+.change:hover {
+    cursor: pointer;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+.chevron {
+    height: 1.8rem;
+    width: 1.8rem;
+}
+.help_delete {
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.delete_item {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 5.4rem;
+    height: 2.7rem;
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 1.5rem;
+    transition: all 0.2s;
+}
+.delete_item:hover {
+    cursor: pointer;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+.delete {
+    height: 2.3rem;
+    width: 2.3rem;
+}
+.full_price {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3.5rem;
+    text-align: center;
+}
+@media (max-width: 1199px) {
+    .check_order_text {
+        font-size: 4rem;
+    }
+    .header_info {
+        font-size: 2.7rem;
+    }
+    .info {
+        font-size: 1.8rem;
+    }
+    .right {
+        font-size: 2.7rem;
+        margin-top: 11rem;
+    }
+    .sum {
+        font-size: 4rem;
+    }
+    .digital_sum {
+        font-size: 4rem;
+        margin-top: 1rem;
+    }
+    .item_name {
+        font-size: 3.7rem;
+    }
+    .image {
+        height: 35rem;
+        width: 35rem;
+    }
+}
+@media (max-width: 991px) {
+    .input {
+        height: 5rem;
+        font-size: 2.1rem;
+        margin-top: 2rem;
+    }
+    .save {
+        height: 5rem;
+        font-size: 2.1rem;
+        margin-top: 2rem;
+    }
+    .button {
+        height: 7rem;
+        font-size: 2.5rem;
+        margin-top: 12rem;
+    }
+    .item_name {
+        font-size: 3.3rem;
+    }
+    .image {
+        height: 28rem;
+        width: 28rem;
+    }
+    .count {
+        width: 5.4rem;
+    }
+    .help_delete {
+        text-align: center;
+        margin-top: 0.7rem;
+        margin-bottom: 0.7rem;
+    }
+    .delete_item {
+        width: 5.2rem;
+        height: 2.3rem;
+    }
+    .delete {
+        height: 2.1rem;
+        width: 2.1rem;
+    }
+    .full_price {
+        font-size: 3rem;
+    }
+}
+@media (max-width: 767px) {
+    .input {
+        height: 4rem;
+        font-size: 1.7rem;
+    }
+    .save {
+        height: 4rem;
+        font-size: 1.7rem;
+    }
+    .check_order_text {
+        font-size: 3.5rem;
+    }
+    .header_info {
+        font-size: 2.2rem;
+    }
+    .info {
+        font-size: 1.6rem;
+    }
+    .button {
+        font-size: 2.2rem;
+        margin-top: 4rem;
+    }
+    .sum {
+        font-size: 3.5rem;
+    }
+    .order_items {
+        margin-top: 6rem;
+    }
+    .digital_sum {
+        font-size: 3.5rem;
+    }
+    .item_name {
+        font-size: 2.7rem;
+    }
+    .image {
+        height: 22rem;
+        width: 22rem;
+    }
+    .first_price {
+        font-size: 1.2rem;
+    }
+    .count {
+        width: 5rem;
+        font-size: 3em;
+    }
+    .delete_item {
+        width: 5rem;
+        height: 2.2rem;
+    }
+    .delete {
+        height: 1.8rem;
+        width: 1.8rem;
+    }
+    .full_price {
+        font-size: 2.6rem;
+    }
+}
+@media (max-width: 575px) {
+    .check_order_text {
+        font-size: 2.6rem;
+    }
+    .left_block,
+    .right_block {
+        margin-top: 0;
+    }
+    .sum {
+        font-size: 2.6rem;
+    }
+    .digital_sum {
+        font-size: 2.6rem;
+    }
+    .item {
+        margin-top: 3rem;
+        margin-bottom: 3rem;
+    }
+}
+@media (max-width: 470px) {
+    .input {
+        height: 3.5rem;
+        font-size: 1.3rem;
+    }
+    .save {
+        height: 3.5rem;
+        font-size: 1.3rem;
+    }
+}
+@media (max-width: 430px) {
+    .check_order_text {
+        font-size: 2.3rem;
+    }
+    .header_info {
+        margin-top: 4rem;
+        font-size: 1.9rem;
+    }
+    .info {
+        font-size: 1.3rem;
+    }
+    .button {
+        margin-top: 3rem;
+        font-size: 2rem;
+    }
+    .sum {
+        font-size: 2.3rem;
+    }
+    .digital_sum {
+        font-size: 2.3rem;
+    }
+}
+@media (max-width: 360px) {
+    .check_order_text {
+        font-size: 2rem;
+    }
+}

@@ -1,0 +1,159 @@
+/* Стиль айтема в корзине */
+.item {
+    margin-top: 10rem;
+    display: inline-block;
+}
+.item_name {
+    margin-top: 5rem;
+    font-family: 'Raleway', sans-serif;
+    font-size: 4rem;
+    text-align: center;
+}
+.img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.image {
+    height: 40rem;
+    width: 40rem;
+}
+.image:hover {
+    cursor: pointer;
+}
+.first_price {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.4rem;
+    text-align: center;
+}
+.counter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.count {
+    width: 6rem;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3.5rem;
+    margin: 0;
+}
+.change {
+    width: 2.4rem;
+    height: 2.4rem;
+    border-radius: 1.2rem;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #000000;
+    transition: all 0.2s;
+}
+.change:hover {
+    cursor: pointer;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+.chevron {
+    height: 1.8rem;
+    width: 1.8rem;
+}
+.help_delete {
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.delete_item {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 5.4rem;
+    height: 2.7rem;
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 1.5rem;
+    transition: all 0.2s;
+}
+.delete_item:hover {
+    cursor: pointer;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+.delete {
+    height: 2.3rem;
+    width: 2.3rem;
+}
+.full_price {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3.5rem;
+    text-align: center;
+}
+@media (max-width: 1199px) {
+    .item_name {
+        font-size: 3.7rem;
+    }
+    .image {
+        height: 35rem;
+        width: 35rem;
+    }
+}
+@media (max-width: 991px) {
+    .item_name {
+        font-size: 3.3rem;
+    }
+    .image {
+        height: 28rem;
+        width: 28rem;
+    }
+    .count {
+        width: 5.4rem;
+    }
+    .help_delete {
+        text-align: center;
+        margin-top: 0.7rem;
+        margin-bottom: 0.7rem;
+    }
+    .delete_item {
+        width: 5.2rem;
+        height: 2.3rem;
+    }
+    .delete {
+        height: 2.1rem;
+        width: 2.1rem;
+    }
+    .full_price {
+        font-size: 3rem;
+    }
+}
+@media (max-width: 767px) {
+    .help_clean {
+        text-align: right;
+    }
+    .item_name {
+        font-size: 2.7rem;
+    }
+    .image {
+        height: 22rem;
+        width: 22rem;
+    }
+    .first_price {
+        font-size: 1.2rem;
+    }
+    .count {
+        width: 5rem;
+        font-size: 3em;
+    }
+    .delete_item {
+        width: 5rem;
+        height: 2.2rem;
+    }
+    .delete {
+        height: 1.8rem;
+        width: 1.8rem;
+    }
+    .full_price {
+        font-size: 2.6rem;
+    }
+}
+@media (max-width: 575px) {
+    .item {
+        margin-top: 3rem;
+        margin-bottom: 3rem;
+    }
+}

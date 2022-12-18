@@ -1,0 +1,78 @@
+/* Общие стили */
+.order_check_section {
+    margin-top: 10rem;
+}
+.your_order {
+    font-size: 3.7rem;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Raleway', sans-serif;
+}
+.example_block {
+    display: flex;
+    margin-top: 1rem;
+    align-items: center;
+    justify-content: center;
+}
+.finder {
+    font-size: 3rem;
+    margin-top: 2rem;
+    text-align: center;
+    outline: none;
+    border-style: none;
+    font-family: 'Montserrat', sans-serif;
+}
+.text {
+    font-size: 2.8rem;
+    margin-bottom: 0;
+    margin-left: 1rem;
+    font-family: 'Raleway', sans-serif;
+}
+.round {
+    height: 3.5rem;
+    width: 3.5rem;
+    border-radius: 50%;
+}
+.green {
+    background-color: #00E676;
+}
+.yellow {
+    background-color: #FFFF00;
+}
+.red {
+    background-color: #E53935;
+}
+.turquoise {
+    background-color: #64FFDA;
+}
+
+@media (max-width: 991px) {
+    .text {
+        font-size: 2.4rem;
+    }
+    .finder {
+        font-size: 2.4rem;
+    }
+}
+@media (max-width: 767px) {
+    .your_order {
+        font-size: 3rem;
+    }
+}
+@media (max-width: 575px) {
+    .text {
+        font-size: 2rem;
+    }
+    .round {
+        height: 3rem;
+        width: 3rem;
+    }
+    .finder {
+        font-size: 2rem;
+    }
+}
+@media (max-width: 450px) {
+    .text {
+        font-size: 1.7rem;
+    }
+}

@@ -1,0 +1,110 @@
+/* Существующие категории */
+.brand_section {
+    height: 100%;
+}
+.create_brand {
+    margin-top: 45vh;
+    transform: translateY(-50%);
+}
+.brand_list {
+    margin-top: 5rem;
+}
+.brand_list_text {
+    text-align: center;
+    font-size: 2.7rem;
+    font-family: 'Raleway', sans-serif;
+}
+.list {
+    margin-top: 2rem;
+    height: 30rem;
+    border-style: solid;
+    border-width: 0.3rem;
+    border-color: rgba(0, 0, 0, 0.8);
+    border-radius: 1.5rem;
+    overflow: auto;
+}
+.list_item {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    font-size: 2.1rem;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+}
+/*Инпут и кнопка категории */
+.add_brand {
+    margin-top: 5rem;
+}
+.add_text {
+    text-align: center;
+    font-size: 2.7rem;
+    font-family: 'Raleway', sans-serif;
+}
+.input_brand {
+    margin-top: 2rem;
+    font-size: 2rem;
+    height: 5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border-style: solid;
+    border-width: 0.3rem;
+    border-color: rgba(0, 0, 0, 0.8);
+    border-radius: 1rem;
+    display: inline-block;
+    font-family: 'Raleway', sans-serif;
+}
+.input_brand:focus {
+    outline: none;
+}
+.button_add {
+    height: 5rem;
+    background-color: #00C853;
+    border-style: none;
+    border-radius: 1rem;
+    font-size: 2.4rem;
+    margin-top: 3rem;
+    transition: all 0.2s linear;
+    font-family: 'Raleway', sans-serif;
+}
+.button_add:hover {
+    background-color: #00E05D;
+}
+@media (max-width: 991px) {
+    .brand_list_text {
+        font-size: 2.2rem;
+    }
+    .list {
+        height: 25rem;
+    }
+    .list_item {
+        font-size: 1.6rem;
+    }
+    .add_text {
+        font-size: 2.2rem;
+    }
+    .input_brand {
+        font-size: 2rem;
+    }
+    .button_add {
+        font-size: 2rem;
+    }
+}
+@media (max-width: 400px) {
+    .brand_list_text {
+        font-size: 1.8rem;
+    }
+    .list {
+        height: 20rem;
+    }
+    .list_item {
+        font-size: 1.2rem;
+    }
+    .add_text {
+        font-size: 1.8rem;
+    }
+    .input_brand {
+        font-size: 1.6rem;
+    }
+    .button_add {
+        font-size: 1.6rem;
+    }
+}

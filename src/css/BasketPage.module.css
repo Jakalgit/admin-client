@@ -1,0 +1,259 @@
+html,
+body {
+    background-color: #fff;
+    font-size: 10px;
+    min-width: 320px;
+}
+/* Поисковая строка */
+.find_block {
+    margin-top: 10rem;
+}
+.find_line {
+    margin-top: 3rem;
+    height: 9rem;
+    border-radius: 4.5rem;
+    border-style: none;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.25);
+}
+.search {
+    height: 9rem;
+    border-top-left-radius: 4.5rem;
+    border-bottom-left-radius: 4.5rem;
+    border-style: none;
+    font-family: 'Raleway', sans-serif;
+    font-size: 2.5rem;
+    padding-left: 4.5rem;
+}
+.search:focus {
+    outline: none;
+}
+.find {
+    height: 9rem;
+    border-top-right-radius: 4.5rem;
+    border-bottom-right-radius: 4.5rem;
+    font-size: 3rem;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    background-color: #0048D0;
+    color: #fff;
+    border-style: none;
+    transition: all 0.2s;
+}
+.find:hover {
+    background-color: #0B5BF2;
+}
+/* Поиск запчастей */
+.find_parts {
+    height: 6rem;
+    border-radius: 3rem;
+    border-style: none;
+    margin-top: 1rem;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    font-size: 2.5rem;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    transition: all 0.25s;
+}
+.find_parts:hover {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.25);
+}
+/* Врехняя строка */
+.section_line {
+    margin-top: 20rem;
+}
+.your_basket {
+    text-align: center;
+    font-size: 5rem;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+}
+.clean_all {
+    background-color: #D50000;
+    height: 6rem;
+    width: 6rem;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 3rem;
+    transition: all 0.2s;
+}
+.clean_all:hover {
+    cursor: pointer;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+.close {
+    height: 4.5rem;
+    width: 4.5rem;
+}
+.checkout {
+    height: 6rem;
+    background-color: #0048D0;
+    border-style: none;
+    border-radius: 3rem;
+    font-size: 2.5rem;
+    font-weight: bold;
+    font-family: 'Raleway', sans-serif;
+    color: #fff;
+    transition: all 0.2s;
+}
+.checkout:hover {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+.card {
+    display: inline-block;
+    background-color: #0048D0;
+    width: 3rem;
+    height: 2.6rem;
+}
+.empty_text {
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    font-size: 4.5rem;
+    margin-top: 45vh;
+}
+@media (max-width: 1199px) {
+    .your_basket {
+        font-size: 3.8rem;
+    }
+    .clean_all {
+        background-color: #D50000;
+        height: 3.8rem;
+        width: 3.8rem;
+        border-radius: 1.9rem;
+    }
+    .close {
+        height: 3rem;
+        width: 3rem;
+    }
+    .checkout {
+        height: 4rem;
+        border-radius: 2rem;
+        font-size: 2.1rem;
+    }
+    .card {
+        width: 2.9rem;
+        height: 2.5rem;
+    }
+}
+@media (max-width: 991px) {
+    .find_parts {
+        font-size: 1.8rem;
+        height: 5rem;
+    }
+    .checkout {
+        font-size: 1.8rem;
+    }
+    .card {
+        width: 2.2rem;
+        height: 1.7rem;
+    }
+}
+@media (max-width: 767px) {
+    .find_line {
+        height: 7rem;
+        border-radius: 3.5rem;
+    }
+    .search {
+        height: 7rem;
+        border-top-left-radius: 3.5rem;
+        border-bottom-left-radius: 3.5rem;
+        font-size: 2.1rem;
+        padding-left: 3.5rem;
+    }
+    .find {
+        height: 7rem;
+        border-top-right-radius: 3.5rem;
+        border-bottom-right-radius: 3.5rem;
+        font-size: 2.6rem;
+    }
+    .your_basket {
+        font-size: 3.4rem;
+    }
+    .checkout {
+        font-size: 1.6rem;
+    }
+    .card {
+        width: 2rem;
+        height: 1.5rem;
+    }
+    .help_clean {
+        text-align: right;
+    }
+    .empty_text {
+        font-size: 4.1rem;
+    }
+}
+@media (max-width: 575px) {
+    .your_basket {
+        text-align: center;
+    }
+    .help_clean {
+        margin-top: 1.5rem;
+    }
+    .checkout {
+        margin-top: 1.5rem;
+    }
+}
+@media (max-width: 430px) {
+    /* Поисковая строка */
+    .find_line {
+        height: 6rem;
+        border-radius: 3rem;
+    }
+    .search {
+        height: 6rem;
+        border-top-left-radius: 3rem;
+        border-bottom-left-radius: 3rem;
+        font-size: 1.7rem;
+        padding-left: 3rem;
+    }
+    .find {
+        height: 6rem;
+        border-top-right-radius: 3rem;
+        border-bottom-right-radius: 3rem;
+        font-size: 2.1rem;
+    }
+    .find_parts {
+        font-size: 1.5rem;
+        height: 4rem;
+    }
+    .your_basket {
+        font-size: 2.7rem;
+    }
+    .checkout {
+        font-size: 1.3rem;
+    }
+    .empty_text {
+        font-size: 3.6rem;
+    }
+}
+@media (max-width: 360px) {
+    /* Поисковая строка */
+    .find_line {
+        height: 5rem;
+        border-radius: 2.5rem;
+    }
+    .search {
+        height: 5rem;
+        border-top-left-radius: 2.5rem;
+        border-bottom-left-radius: 2.5rem;
+        font-size: 1.2rem;
+        padding-left: 3rem;
+    }
+    .find {
+        height: 5rem;
+        border-top-right-radius: 2.5rem;
+        border-bottom-right-radius: 2.5rem;
+        font-size: 1.6rem;
+    }
+    .find_parts {
+        font-size: 1.3rem;
+    }
+    .checkout {
+        font-size: 1.1rem;
+    }
+    .empty_text {
+        font-size: 3.2rem;
+    }
+}
